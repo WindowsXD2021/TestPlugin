@@ -1,0 +1,37 @@
+name: TestPlugin
+version: 3.0.3
+main: testplugin.testplugin.TestPlugin
+api-version: 1.16
+authors: [ Ignacy_Swiatecki ]
+description: Plugin for tests
+commands:
+  login:
+    description: Login to the server
+    usage: /login
+    permission: TestPlugin.login
+    permission-message: You don't have permission to login
+  plugin-info:
+    description: Info about plugin
+    usage: /plugin-info
+    permission: TestPlugin.plugininfo
+    permission-message: You don't have permission to view info
+  server-info:
+    description: Info about server
+    usage: /server-info
+    permission: TestPlugin.serverinfo
+    permission-message: You don't have permission to view info
+  http-server-start:
+    description: Start a local http server
+    usage: /http-server-stop
+    permission: TestPlugin.httpserver
+    permission-message: You don't have permission to start server
+#  http-server-stop:
+#    description: Stop a local http server
+#    usage: /http-server-stop
+#    permission: TestPlugin.httpserver
+#    permission-message: You don't have permission to stop server
+  logs:
+    description: View server logs
+    usage: /logs
+    permission: TestPlugin.logs
+    permission-message: You don't have permission to view logs
