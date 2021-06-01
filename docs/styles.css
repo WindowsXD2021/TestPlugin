@@ -11,7 +11,7 @@ body, html {
   
   .bg-image {
     /* The image used */
-    background-image: url("java.png");
+    background-image: url("https://github.com/WindowsXD2021/TestPlugin/blob/master/docs/java.png");
     
     /* Add the blur effect */
     filter: blur(4px);
